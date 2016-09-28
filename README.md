@@ -17,3 +17,6 @@ extern stCPU g_cpu;
 #define BUS_READ                 _bus_read
 #define BUS_WRITE                _bus_write
 ```
+
+The example uses Enhanced BASIC created by jefftranter the code for that is on github
+https://github.com/jefftranter/6502/tree/master/asm/ehbasic
