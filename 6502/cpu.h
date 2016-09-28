@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __CPU_H__
+#define __CPU_H__
 
 #include "defines.h"
 
@@ -107,3 +108,5 @@ void    _cpu_addBranchCycles(u16);
 
 void    _cpu_triggerNMI();
 void    _cpu_triggerIRQ();
+
+#endif

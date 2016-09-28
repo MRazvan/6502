@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __GLOBALS_H__
+#define __GLOBALS_H__
 
 #include "user_defines.h"
 
@@ -36,3 +37,5 @@
 #define INTERRUPT_NMI_VECTOR    0xFFFA
 #define INTERRUPT_IRQ_VECTOR    0xFFFE
 #define INTERRUPT_RST_VECTOR    0xFFFC
+
+#endif 

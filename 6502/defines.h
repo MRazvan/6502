@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __DEFINES_H__
+#define __DEFINES_H__
 
 #define u8     unsigned char
 #define u16    unsigned short
@@ -16,7 +17,7 @@
 
 // Empty function pointer
 typedef void(*fpEmpty)();
-typedef u8    (*fpRead)(u16);
+typedef u8  (*fpRead)(u16);
 typedef void(*fpWrite)(u16, u8);
 
 #if DEBUG
@@ -26,4 +27,6 @@ typedef void(*fpWrite)(u16, u8);
 #else
 #define debug_nl(...)
 #define debug(...)
+#endif
+
 #endif

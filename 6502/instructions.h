@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __INSTRUCTIONS_H__
+#define __INSTRUCTIONS_H__
 
 #include "cpu.h"
 #include "defines.h"
@@ -368,3 +369,5 @@ INSTR(SLO) {
     SETNZ(A);
     WRITE(tmp);
 }
+
+#endif
