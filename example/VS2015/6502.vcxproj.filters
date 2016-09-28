@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\simple_calc\simple_calc.cpp">
+      <Filter>simple_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simple_calc\user_defines.cpp">
+      <Filter>simple_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\cpu.cpp">
+      <Filter>6502</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="6502">
+      <UniqueIdentifier>{42a75920-31ef-45fd-98db-0433666a1198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simple_calc">
+      <UniqueIdentifier>{ab368eab-ecc4-44c0-9d4b-d322ee1d6618}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\simple_calc\ehrom.h">
+      <Filter>simple_calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simple_calc\simple_calc.h">
+      <Filter>simple_calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simple_calc\user_defines.h">
+      <Filter>simple_calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\6502\cpu.h">
+      <Filter>6502</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\6502\defines.h">
+      <Filter>6502</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\6502\globals.h">
+      <Filter>6502</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\6502\instructions.h">
+      <Filter>6502</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
